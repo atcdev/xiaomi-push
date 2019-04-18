@@ -15,7 +15,8 @@ msg
 
 var notification = new Notification({
   production: config.production,
-  appSecret: config.appSecret
+  appSecret: config.appSecret,
+  proxyOpt: config.proxyOpt
 })
 
 var regid = config.regids[0]
